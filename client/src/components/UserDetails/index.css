@@ -1,0 +1,43 @@
+.edit-form{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    border-width: 1px;
+    border-radius: 15px;
+}
+.edit-form h1{
+    color:#000000 ;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+.edit-form input{
+    width: 70%;
+    margin: 4px;
+    padding: 5px;
+}
+.edit-form textarea{
+    width: 70%;
+    margin: 3px;
+    padding: 5px;
+}
+
+.edit-form button{
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-width: 0px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:568px) {
+    .edit-form{
+        max-width: 90%;
+    }
+    
+}

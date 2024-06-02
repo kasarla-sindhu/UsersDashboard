@@ -1,0 +1,10 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/022/503/943/small/linear-halftone-smoke-abstract-background-fog-backdrop-formed-by-polygonal-triangles-and-woodcut-style-transitions-vector.jpg');
+    height: 100%;
+    background-size: cover;
+  }
